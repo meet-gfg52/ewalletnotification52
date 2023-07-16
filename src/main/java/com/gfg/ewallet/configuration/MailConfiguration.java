@@ -12,8 +12,8 @@ public class MailConfiguration {
 
         JavaMailSenderImpl mailSender=new JavaMailSenderImpl();
 
-        mailSender.setUsername("ewallet.gfg52@gmail.com");
-        mailSender.setPassword("kyjprdbyjougqpmw");
+        mailSender.setUsername("<email_here>");
+        mailSender.setPassword("<password_here>");
         mailSender.setHost("smtp.gmail.com");
         mailSender.setPort(587);
         mailSender.setProtocol("smtp");
